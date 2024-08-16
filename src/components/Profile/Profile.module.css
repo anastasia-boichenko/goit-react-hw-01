@@ -1,0 +1,56 @@
+.card {
+  width: 250px;
+  margin: 20px auto;
+  border: 3px solid rgb(53, 53, 53);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 20px 10px 20px;
+  gap: 5px;
+}
+.userAvatar {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 100%;
+}
+.userName {
+  font-weight: bold;
+  font-size: 15px;
+}
+.userTag {
+  color: rgb(70, 70, 70);
+}
+.userStats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: lightgrey;
+  border-top: 2px solid rgb(90, 90, 90);
+}
+.userStatsItem {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.userStatsText {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.userStatsValue {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
